@@ -9,8 +9,23 @@ Constraints:-
 
 Note:- It is guaranteed that F - 32 will be a multiple of 9.
 Output
-Return a integer containing converted temperature in Fahrenheit. */
+Return a integer containing converted temperature in Fahrenheit.
+
+Example
+Sample Input :
+77
+
+Sample Output:
+25
+
+Sample Input:-
+-40
+
+Sample Output:-
+-40 */
+
+
 
 static int FahrenheitToCelsius(int F){
-    return (F-32)*5/9;///Enter your code here
+    return (F-32)*5/9; // Just used the formula
     }
